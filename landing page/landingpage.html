@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Student Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <div class="logo">Monica</div>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Monica's Landing Page</h1>
+      <p>task 1 - web development .</p>
+      <a href="#about" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About</h2>
+    <p>
+      This is a basic landing page created for my web development task for skillcraft technology.
+      It has a fixed navigation bar that changes style when you scroll
+      and when you hover over the menu items.
+    </p>
+  </section>
+  
+  <section class="section" id="about">
+    <h2>what I learned from this task </h2>
+    <p>
+ Design a clean landing page layout using HTML + CSS,
+ Make the navigation bar interactive and fixed using simple JavaScript,
+ Improve responsiveness across different screen sizes,
+ Add hover effects and smooth UI transitions.
+    </p>
+  </section>
+
+  <section class="section" id="features">
+    <h2>Features</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Responsive Design</h3>
+        <p>Works on simple CSS.</p>
+      </div>
+      <div class="card">
+        <h3>Fixed Navbar</h3>
+        <p>The menu stays at the top even when you scroll down.</p>
+      </div>
+      <div class="card">
+        <h3>Hover Effects</h3>
+        <p>Menu links change color when you move the mouse over them.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <h2>Contact</h2>
+    <p>Email: student@example.com</p>
+    <p>Phone: +91 98765 43210</p>
+  </section>
+
+  <footer class="footer">
+    <p> Monica's Landing Page</p>
+  </footer>
+
+  <script>
+    const navbar = document.getElementById("navbar");
+    window.addEventListener("scroll", function () {
+      if (window.scrollY > 50) {
+        navbar.classList.add("scrolled");
+      } else {
+        navbar.classList.remove("scrolled");
+      }
+    });
+  </script>
+</body>
+</html>
