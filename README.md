@@ -34,9 +34,8 @@ This project is a responsive landing page created as part of a web development t
 
 # Project Summary
 
-This project demonstrates the fundamentals of front-end development, including layout creation, responsive styling, and interactive UI behavior. Completing this task helped me strengthen my understanding of HTML, CSS, and JavaScript while building a clean and user-friendly landing page.
+This project demonstrates the fundamentals of front-end development, including layout creation, responsive styling, and interactive UI behavior.
 
-If you want, I can format this into a downloadable README.md file as well.
 
 # webpage design 
 
